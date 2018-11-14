@@ -1,1 +1,1 @@
-# .xmonad
+# amy-xmonad

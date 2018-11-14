@@ -1,0 +1,36 @@
+name:                amy-xmonad
+version:             1.0.0
+github:              "mhwombat/.xmonad"
+license:             PublicDomain
+author:              "Amy de Buitléir"
+maintainer:          "amy@nualeargais.ie"
+copyright:           "2018 Amy de Buitléir"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/mhwombat/.xmonad#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- xmonad
+- xmonad-contrib
+- X11
+
+executables:
+  xmonad:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+
