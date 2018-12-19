@@ -1,6 +1,8 @@
-.stack-work/
-amy-xmonad.cabal
-*~
+# Build artifacts
+*.o
+*.hi
 xmonad-x86_64-linux
 xmonad.errors
-Setup.hs
+
+# Backup files
+*~
