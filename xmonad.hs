@@ -58,7 +58,7 @@ myKeys =
 --   , ((mod4Mask .|. shiftMask, xK_m        ), spawn "echo Delay 1 > .macro_0; xmacrorec2 -k 9 | grep -v Super_L >> .macro_0")
 --   , ((mod4Mask,               xK_m        ), spawn "xmacroplay -d 10 :0 < .macro_0")
   -- Display key bindings. Mnemonic: Shift + '/' is '?'
-  , ((mod4Mask .|. shiftMask, xK_slash       ), spawn "sxiv ~/néal/technotes/Xmbindings.png")
+  , ((mod4Mask .|. shiftMask, xK_slash       ), spawn "sxiv ~/github/eolas/Xmbindings.png")
   -- Lock the screen
   , ((mod4Mask,               xK_Scroll_Lock ), spawn "xscreensaver-command --lock")
   , ((0,                      xF86XK_Sleep   ), spawn "xscreensaver-command --lock")
